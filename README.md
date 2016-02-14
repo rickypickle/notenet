@@ -1,0 +1,2 @@
+# notenet
+android and web
