@@ -1,0 +1,186 @@
+html{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+body {
+	background-color: #363636;
+	position: relative;
+	line-height: 19px; font-family: 'Montserrat', sans-serif; color: #fff; background-color: #05060A;
+	font-size: 19px; 
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;	
+	text-align:center;
+}
+
+.TopMenu{
+    height: 10%;
+    width: 100%;
+    background-color: beige;
+    float: left;
+}
+.MainContent{
+    height: 80%;
+    width: 100%;
+    background-color: azure;
+    float: left;
+    
+}
+.ActionBar{
+    height: 10%;
+    width: 100%;
+    background-color: darkblue;
+    float: left;
+    
+}
+.MenuNav{
+    height: 100%;
+    width: 32%;
+    margin-left: 1%;
+    background-color: dimgray;
+    cursor: pointer;
+    color: aliceblue;
+    float: left;
+}
+.StoryList{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.NoteList{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.Discover{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+.action{
+    float: left;
+    height: 50%;
+    width: 20%;
+    background-color: darkseagreen;
+    color: #fff;
+    cursor: pointer;
+}
+.CreateStory{
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: white;
+    z-index: 3;
+}
+.CreateNote{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: gainsboro;
+    z-index: 2;
+}
+.ContentTitle{
+    float: left;
+    height: 10%;
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 10%;
+    width: 80%;
+    color: black;
+}
+.createStoryAction{
+    float: left;
+    margin-left: 1%;
+    height: 10%;
+    background-color: cadetblue;
+    width: 48%;
+    text-align: center;
+    cursor: pointer;
+}
+.noteContent{
+    margin-left: 30%;
+    float: left;
+    width: 40%;
+    height: 20%;
+}
+.noteTags{
+    float: left;
+    width: 40%;
+    margin-left: 30%;
+}
+.bottomButtons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: indianred;
+}
+.button{
+    margin-left: 1%;
+    margin-right: 1%;
+    width:48%;
+    height: 100%;
+}
+.attachArea{
+    float: left;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    background-color: wheat;
+}
+.storyList{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+.newStoryAttach{
+    margin-top: 15px;
+    color: black;
+}
+.listElement{
+    float: left;
+    height: 25px;
+    width: 99%;
+    margin: 1px;
+    background-color: azure;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "verdana";
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+.noteDisplay{}
+.storyDisplay{}
+
+
+input {
+    border: 1px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 3px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}

@@ -1,0 +1,99 @@
+                            <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Untitled Document
+	</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="Controller.js"></script>
+		<script src="View.js"></script>
+        <script src="Model.js"></script>
+		
+		<link type="text/css" href="Style.css" rel="stylesheet" media="all" />
+		
+	  <script>
+    $(document).ready(function(){
+       // Initialize view
+        View.navigation();
+        View.actionBar();
+        Controller.buttonListener();
+    });
+   
+    </script>
+  
+  </head>
+  
+      <body>
+       
+        <div class="TopMenu">
+            <div class="MenuNav">stories</div>  
+            <div class="MenuNav">notes</div>  
+            <div class="MenuNav">discover</div>  
+        </div>
+        
+        <div class="MainContent">
+            <div class="storyListElement listElement" id="stTemp" style="display:none;">story element</div>
+            <div class="noteListElement listElement" id="ntTemp" style="display:none;">note element</div>
+            
+            <div class="StoryList">
+                <div class="ContentTitle storyListTitle">Stories</div>
+                
+            </div>
+            <div class="NoteList">
+                <div class="ContentTitle noteListTitle"></div>
+                
+            </div>
+            <div class="Discover">
+                
+            </div>
+            
+            <div class="CreateStory">
+                <div class="ContentTitle">Create Story</div>
+                <div class="ContentTitle">Enter Story Title</div>
+                <input placeholder="new story title" class="storyTitle">
+                <div class="ContentTitle"></div>
+                
+                <div class="createStoryAction cancelStory">cancel</div>
+                <div class="createStoryAction createStory">create story</div>
+                
+            </div>
+            <div class="CreateNote">
+                <div class="ContentTitle">Create Note</div>
+                <div class="ContentTitle">Enter Note Content</div>
+                <textarea placeholder="enter note content" class="noteContent"></textarea>
+                <div class="ContentTitle">Enter Note Tags</div>
+                <input placeholder="enter tags here" class="noteTags">
+                
+                <div class="attachArea">
+                    <div class="ContentTitle">Select Story to Attach Note to</div>
+                    <div class="storyList"></div>
+                    <div class="ContentTitle">and/or Attach to new Story</div>
+                    <input placeholder="new story title" class="newStoryAttach">
+                </div>
+                <div class="bottomButtons">
+                    <div class="action button cancelNote">cancel</div>
+                    <div class="action button createNote">create</div>
+                </div>
+            </div>
+          
+        </div>
+        
+        <div class="ActionBar">
+            <div class="action newStory">new story</div>
+            <div class="action newNote">new note</div>
+            <input placeholder="filter lists" class="filter">
+        </div>
+       
+       
+       
+       
+      </body>
+      
+
+</html>
